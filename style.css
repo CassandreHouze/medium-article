@@ -1,0 +1,74 @@
+body{
+  background-color: #F1ECE6;
+  font-family: 'Lora', serif;
+  color: #294C34;
+  margin: 0;
+}
+
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-size: 38px;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+/* CONTAINTER */
+@media (max-width: 1300px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.banner{
+  background-image: url('https://source.unsplash.com/random'), linear-gradient(to right, red , yellow);;
+  background-size: cover;
+  padding: 120px 0;
+  color: #FFFFFF;
+}
+
+.banner p{
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+  font-size: 30px;
+}
+
+.container{
+  margin: 50px auto;
+}
+
+a{
+  text-decoration: none;
+  font-weight: lighter;
+  font-style: italic;
+  color: #294C34;
+}
+
+a:hover{
+  font-weight: bold;
+}
