@@ -45,7 +45,7 @@ h2{
 }
 
 .banner{
-  background-image: url('https://source.unsplash.com/random'), linear-gradient(to right, red , yellow);;
+  background-image: url('https://source.unsplash.com/random'), linear-gradient(to right, red , yellow);
   background-size: cover;
   padding: 120px 0;
   color: #FFFFFF;
